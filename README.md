@@ -1,6 +1,7 @@
 # 项目展示
 
 - html+css+js
+  -[Html+Css+Js音乐播放器](https://zwk05.github.io/music/) 
 - JavaScript
 - jQuery
 - BootStrap
