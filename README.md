@@ -5,7 +5,7 @@
 - jQuery
 - BootStrap
 - CSS3
-  - [svg+css+js心形效果](https://zwk05.github.io/heart/)
+  - [Svg+Css+Js 心形效果](https://zwk05.github.io/heart/)
 - HTML5
   - [Canvas+ES6 球球大作战](https://zwk05.github.io/boll/)
   - wewew
