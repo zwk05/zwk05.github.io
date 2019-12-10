@@ -4,7 +4,7 @@
 - JavaScript
 - jQuery
 - BootStrap
-  -[BootStrap+Css度假酒店](https://zwk05.github.io/TheHotel/) 
+  - [BootStrap+Css度假酒店](https://zwk05.github.io/TheHotel/) 
 - CSS3
   - [Svg+Css+Js 心形效果](https://zwk05.github.io/heart/)
 - HTML5
