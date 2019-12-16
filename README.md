@@ -6,7 +6,7 @@
 - jQuery
   - [Regular+css 注册表](https://zwk05.github.io/regular/) 
   - [Ajax+css 瀑布流](https://zwk05.github.io/falls/)
-  - [Css+Js 全屏滚动](https://zwk05.github.io/sereen/)
+  - [Css+Js 全屏滚动](https://zwk05.github.io/screen/)
 - BootStrap
   - [BootStrap+Css 模特](https://zwk05.github.io/TheHotel/) 
   - [BootStrap+Css 礼品](https://zwk05.github.io/present/)
