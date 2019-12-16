@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+ul.content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100vh;
+  overflow: hidden;
+}
+ul.content li {
+  height: 100vh;
+  position: relative;
+  transition: all 1s;
+}
+ul.content li:nth-child(1) {
+  width: 100%;
+  background: url("../images/slide1-bg.jpg") no-repeat center;
+}
+ul.content li:nth-child(2) {
+  background: #9462e0;
+}
+ul.content li:nth-child(3) {
+  background: #6ac75b;
+}
+ul.content li:nth-child(4) {
+  background: #fff29b;
+}
+ul.content li:nth-child(5) {
+  background: #ffffff;
+}
+ul.content li .pl-1,
+ul.content li .pl-2 {
+  position: absolute;
+  top: 20%;
+  transition: all 2s;
+}
+ul.content li .eol-show {
+  position: relative;
+  left: 330px;
+}
+ul.content li .eol-show .roll {
+  width: 450px;
+  height: 450px;
+  background: url("../images/roll.png") no-repeat center;
+  transition: all 2s;
+  transform: scale(0);
+}
+ul.content li .eol-show .people {
+  width: 187px;
+  height: 177px;
+  background: url("../images/people.png") no-repeat center;
+  position: absolute;
+  left: 0px;
+  bottom: 150px;
+}
+ul.content li .eol-show .cellphone {
+  width: 227px;
+  height: 478px;
+  background: url("../images/phone.png") no-repeat;
+  position: absolute;
+  left: 115px;
+  bottom: 0px;
+}
+ul.content li .eol-show .hand {
+  width: 135px;
+  height: 234px;
+  background: url("../images/hand.png") no-repeat;
+  position: absolute;
+  left: 261px;
+  bottom: -130px;
+}
+ul.content li .eol-txt {
+  right: 370px;
+  text-align: center;
+}
+ul.content li .eol-txt p.txt {
+  color: #fff;
+  font-size: 33px;
+  padding: 25px 0 33px 0;
+  line-height: 100%;
+}
+ul.content li .eol-txt .grid a.btn {
+  display: inline-block;
+  width: 139px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  color: #fff;
+  background: #3884e3;
+  border-radius: 2px;
+  border: 2px solid #8abeff;
+  font-size: 23px;
+  text-decoration: none;
+}
+ul.content li .eol-txt .bounce {
+  padding: 30px 0px;
+}
+ul.content li .eol-txt .bounce p {
+  font-size: 26px;
+  margin-top: 20px;
+  color: #fff;
+}
+ul.content li .py-1,
+ul.content li .py-2,
+ul.content li .pb-1,
+ul.content li .pb-2,
+ul.content li .pa-1,
+ul.content li .pa-2 {
+  position: absolute;
+  top: 15%;
+  transition: all 3s;
+}
+ul.content li .ph-1,
+ul.content li .ph-2 {
+  position: absolute;
+  top: 50%;
+}
+ul.content li .py-1 {
+  opacity: 0;
+  left: -200px;
+}
+ul.content li .py-1 h2 {
+  font-size: 56px;
+  color: #fff;
+  padding: 23px 0 70px 0;
+  text-align: center;
+}
+ul.content li .py-1 h3 {
+  font-size: 34px;
+  color: #fff;
+  padding-bottom: 43px;
+  text-align: center;
+}
+ul.content li .py-1 p {
+  font-size: 26px;
+  line-height: 47px;
+  color: #e3d1ff;
+}
+ul.content li .py-2 {
+  opacity: 0;
+  right: -200px;
+}
+ul.content li .pb-1 {
+  opacity: 0;
+  left: -200px;
+}
+ul.content li .pb-2 {
+  opacity: 0;
+  right: -200px;
+  width: 430px;
+}
+ul.content li .pb-2 h2 {
+  font-size: 56px;
+  color: #fff;
+  padding: 23px 0 70px 0;
+  text-align: center;
+}
+ul.content li .pb-2 h3 {
+  font-size: 34px;
+  color: #fff;
+  padding-bottom: 43px;
+  text-align: center;
+}
+ul.content li .pb-2 p {
+  font-size: 26px;
+  line-height: 47px;
+  color: #a7fe98;
+  text-align: justify;
+}
+ul.content li .pa-1 {
+  opacity: 0;
+  left: -200px;
+}
+ul.content li .pa-1 h2 {
+  font-size: 56px;
+  color: #333;
+  padding: 23px 0 70px 0;
+  text-align: center;
+}
+ul.content li .pa-1 h2 span {
+  color: #5cce4a;
+}
+ul.content li .pa-1 h3 {
+  font-size: 34px;
+  color: #333;
+  padding-bottom: 43px;
+  text-align: center;
+}
+ul.content li .pa-1 p {
+  font-size: 26px;
+  line-height: 47px;
+  color: #333;
+}
+ul.content li .pa-2 {
+  opacity: 0;
+  right: -200px;
+}
+ul.content li .selse {
+  height: 100%;
+  opacity: 0;
+  transform: scale(0);
+  text-align: center;
+  transition: all 3s;
+}
+ul.content li .selse h4 {
+  padding-top: 60px;
+  font-size: 56px;
+  color: #e26876;
+}
+ul.content li .selse h5 {
+  font-size: 39px;
+  color: #333;
+  padding: 44px 0;
+}
+ul.content li .selse .ph-1 {
+  left: 380px;
+}
+ul.content li .selse .ph-2 {
+  right: 380px;
+}
+ul.content li .selse .ph-2 img {
+  margin: 28px 0 20px;
+  display: inline-block;
+}
+ul.content li .selse .ph-2 p {
+  font-size: 26px;
+  line-height: 47px;
+  color: #333;
+}
+ul.content .active .py-1 {
+  opacity: 1;
+  left: 270px;
+}
+ul.content .active .py-2 {
+  opacity: 1;
+  right: 270px;
+}
+ul.content .active .pb-1 {
+  opacity: 1;
+  left: 270px;
+}
+ul.content .active .pb-2 {
+  opacity: 1;
+  right: 270px;
+}
+ul.content .active .pa-1 {
+  opacity: 1;
+  left: 270px;
+}
+ul.content .active .pa-2 {
+  opacity: 1;
+  right: 270px;
+}
+ul.content .active .selse {
+  opacity: 1;
+  transform: scale(1);
+}
+.pagenation {
+  height: 300px;
+  width: 30px;
+  position: absolute;
+  right: 30px;
+  top: 250px;
+}
+.pagenation span {
+  width: 30px;
+  height: 30px;
+  background: #3b5570;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px 0px;
+}
+.pagenation .active {
+  transition: all 1s;
+  background: lightcyan;
+}
+/*# sourceMappingURL=./style.css.map */

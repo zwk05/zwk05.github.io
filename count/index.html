@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<style>
+		body {
+			background: lightgreen;
+		}
+
+		ul {
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+
+		.stage {
+			margin: 0px auto;
+			width: 80%;
+			background: white;
+			margin: 0px auto;
+			overflow: hidden;
+			padding: 10px;
+			border-radius: 20px;
+		}
+
+		.stage ul {
+			width: 340px;
+			margin: 0px auto;
+		}
+
+		.stage ul::after {
+			content: ":";
+			float: left;
+			line-height: 50px;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 0 5px;
+		}
+
+		.stage ul:last-child::after {
+			content: none;
+		}
+
+		.stage ul li {
+			width: 50px;
+			height: 50px;
+			background-image: url("./images/num1.png");
+			background-position-x: center;
+			background-position-y: 1px;
+			background-size: auto 1000%;
+			float: left;
+			border-radius: 10px;
+			/* transform: translateY(50%) */
+		}
+
+		.box1 li:nth-child(1) {
+			background-color: blue;
+		}
+
+		.box1 li:nth-child(2) {
+			background-color: red;
+		}
+
+		.box2 li:nth-child(1) {
+			background-color: rgb(12, 214, 147);
+		}
+
+		.box2 li:nth-child(2) {
+			background-color: rgb(255, 0, 221);
+		}
+
+		.box3 li:nth-child(1) {
+			background-color: rgb(214, 110, 13);
+		}
+
+		.box3 li:nth-child(2) {
+			background-color: rgb(0, 162, 255);
+		}
+
+		.stage h3 {
+			text-align: center;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="stage">
+		<h3>时间表</h3>
+		<div class="bear"></div>
+		<ul class="box1">
+			<li></li>
+			<li></li>
+		</ul>
+		<ul class="box2">
+			<li></li>
+			<li></li>
+		</ul>
+		<ul class="box3">
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+	<script>
+		var bear = document.querySelector(".bear");
+		var box1s = document.querySelector(".box1");
+		var box2s = document.querySelector(".box2");
+		var box3s = document.querySelector(".box3");
+
+		function showBear(projection, figure) {
+			projection.style.backgroundPositionY = Number(figure) * -projection.offsetHeight + "px";
+		}
+
+		function when(x) {
+			return x < 10 ? "0" + x : String(x);
+		}
+
+		setInterval(function () {
+
+			var current = new Date();
+			var h = current.getHours();
+			var m = current.getMinutes();
+			var s = current.getSeconds();
+
+			box1s.querySelectorAll("li").forEach(function (elem, index, array) {
+				// console.log(index);
+				showBear(elem, when(h)[index]);
+			});
+
+			box2s.querySelectorAll('li').forEach(function(elem,index,array){
+				showBear(elem,when(m)[index]);
+			})
+
+			box3s.querySelectorAll('li').forEach(function(elem,index,array){
+				showBear(elem,when(s)[index]);
+			})
+
+			
+		}, 1000)
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header {
+  .navbar {
+    background: white;
+    padding: 15px 0px;
+    .navbar-header {
+      a {
+        font-size: 30px;
+        color: black;
+      }
+    }
+    .navbar-collapse {
+      .navbar-nav {
+        li {
+          a {
+            color: black;
+          }
+          .dropdown-men {
+            li {
+              a {
+                color: black;
+                display: block;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .centents {
+    // padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    h5 {
+      // margin: 0px;
+      font-size: 2rem;
+      color: #878787;
+    }
+    h3 {
+      color: black;
+      font-size: 4.5rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}
+.banner {
+  .item {
+    img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+    }
+  }
+  .carousel-control {
+    span {
+      background: rgb(136, 133, 133);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      line-height: 50px;
+    }
+  }
+}
+
+.prod {
+  padding: 100px 0px;
+  .txt {
+    background: #eee;
+    text-align: center;
+    // overflow: hidden;
+    margin: 20px 0px;
+    img {
+      width: 100%;
+      height: 100%;
+      // transition: all 3s;
+      // &:hover {
+      //   transform: scale(1.55);
+      //   background-size: cover;
+      // }
+    }
+    h3 {
+      margin: 0px;
+      line-height: 70px;
+      font-size: 18px;
+    }
+  }
+}
+
+.descr {
+  .fluid {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    .imtes {
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 160px;
+      margin-bottom: 240px;
+    }
+    .clear {
+      clear: both;
+      // zoom: 1;
+      // &::after {
+      //   content: "\20";
+      // clear: both;
+      // zoom: 1;
+      // display: block;
+      // height: 0;
+      // }
+      img {
+        width: 100%;
+      }
+      .texts {
+        // text-align: center;
+        padding: 0 70px 0 80px;
+        h3 {
+          font-size: 40px;
+          padding: 20px 0px;
+        }
+        p {
+          font-size: 22px;
+          line-height: 40px;
+          padding-bottom: 20px;
+        }
+        a {
+          font-size: 18px;
+          color: #ab8e75;
+          text-decoration: none;
+        }
+      }
+      .bot {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+      }
+    }
+  }
+}
+
+.partner {
+  background-image: url("../images/sy_imgbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  .title {
+    padding: 50px 0px;
+    text-align: center;
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
+  .log-main {
+    // padding: 30px 20px;
+    padding: 10px;
+    h2 {
+      color: #989898;
+      text-align: center;
+      font-size: 50px;
+      line-height: 80px;
+      background-color: white;
+      // overflow: hidden;
+    }
+  }
+}
+
+/* 大屏幕（平板，大于等于 1024px） */
+
+@media (max-width: 768px) {
+  header {
+    .centents {
+      h5 {
+        // margin: 0px;
+        font-size: 1.5rem;
+      }
+      h3 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  section.prod {
+    .txt {
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  section.descr {
+    .fluid {
+      .imtes {
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 0;
+        margin-bottom: 100px;
+        .bing {
+          padding: 0px;
+        }
+        img {
+          width: 100%;
+        }
+        .texts {
+          padding: 0px 30px;
+          h3 {
+            font-size: 26px;
+            padding: 30px 0px;
+          }
+          p {
+            font-size: 22px;
+            line-height: 40px;
+            padding-bottom: 20px;
+          }
+          a {
+            font-size: 18px;
+            color: #ab8e75;
+          }
+        }
+        .bot {
+          position: relative;
+          margin-top: 20px;
+          padding: 0px;
+        }
+      }
+    }
+  }
+}
+// @media (max-width: 1024px) {
+//   .descr {
+//     .imtes {
+//       position: relative;
+//       padding-bottom: 0;
+//       margin-bottom: 100px;
+//     }
+//     .clear {
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//       .texts {
+
+//         h3 {
+//           font-size: 26px;
+//           padding: 20px 0px;
+//         }
+//         p {
+//           font-size: 22px;
+//           line-height: 40px;
+//           padding-bottom: 20px;
+//         }
+//         a {
+//           font-size: 18px;
+//           color: #ab8e75;
+//           text-decoration: none;
+//         }
+//       }
+//       .bot {
+//       }
+//     }
+//   }
+// }
+
+// /* 中等屏幕（桌面显示器，大于等于 992px） */
+// @media (min-width: 992px) {
+
+//   .descr {
+//     .imtes {
+//       position: relative;
+//       padding-bottom: 0;
+//       margin-bottom: 100px;
+//     }
+//     .clear {
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//       .texts {
+
+//         h3 {
+//           font-size: 20px;
+//           padding: 20px 0px;
+//         }
+//         p {
+//           font-size: 16px;
+//           line-height: 40px;
+//           padding-bottom: 20px;
+//         }
+//         a {
+//           font-size: 12px;
+//           color: #ab8e75;
+//           text-decoration: none;
+//         }
+//       }
+//       .bot {
+//       }
+//     }
+//   }
+// }
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+// @media (min-width:768px) {
+// @media only screen and (max-width: 1024px) {
+//   section.descr {
+//     .clear {
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+
+//       h3 {
+//         font-size: 26px;
+//         padding: 20px 0px;
+//       }
+
+//       p {
+//         font-size: 16px;
+//         line-height: 40px;
+//         padding-bottom: 20px;
+//       }
+//     }
+//   }
+// }

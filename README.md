@@ -1,16 +1,25 @@
 # 项目展示
 
-- html+css+js
-  - [Html+Css+Js音乐播放器](https://zwk05.github.io/music/) 
+- html+css+js 
+  - [Html+Css+Js 倒计时](https://zwk05.github.io/count/)
 - JavaScript
 - jQuery
+  - [Regular+css 注册表](https://zwk05.github.io/regular/) 
+  - [Ajax+css 瀑布流](https://zwk05.github.io/falls/)
+  - [Css+Js 全屏滚动](https://zwk05.github.io/sereen/)
 - BootStrap
-  - [BootStrap+Css模特](https://zwk05.github.io/TheHotel/) 
+  - [BootStrap+Css 模特](https://zwk05.github.io/TheHotel/) 
+  - [BootStrap+Css 礼品](https://zwk05.github.io/present/)
+  - [BootStrap+Css 酒店](https://zwk05.github.io/pub/)
 - CSS3
   - [Svg+Css+Js 心形效果](https://zwk05.github.io/heart/)
   - [Html+Css3 社交按钮](https://zwk05.github.io/SocialButton/)
+  - [Html+Css3 魔方](https://zwk05.github.io/cube/)
+  - [Svg+Css3 幽灵按钮](https://zwk05.github.io/button/)
+  - [Css3+Js 视差](https://zwk05.github.io/parallax/)
 - HTML5
   - [Canvas+ES6 球球大作战](https://zwk05.github.io/boll/)
+  - [Html+Css+Js音乐播放器](https://zwk05.github.io/music/)
   - wewew
   - etrtrtr
 - VUE.js

@@ -1,0 +1,202 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header .navbar {
+  background: white;
+  padding: 15px 0px;
+}
+header .navbar .navbar-header a {
+  font-size: 30px;
+  color: black;
+}
+header .navbar .navbar-collapse .navbar-nav li a {
+  color: black;
+}
+header .navbar .navbar-collapse .navbar-nav li .dropdown-men li a {
+  color: black;
+  display: block;
+  text-align: center;
+}
+header .centents {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+header .centents h5 {
+  font-size: 2rem;
+  color: #878787;
+}
+header .centents h3 {
+  color: black;
+  font-size: 4.5rem;
+}
+header .centents p {
+  font-size: 1.8rem;
+}
+.banner .item img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.banner .carousel-control span {
+  background: #888585;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.prod {
+  padding: 100px 0px;
+}
+.prod .txt {
+  background: #eee;
+  text-align: center;
+  margin: 20px 0px;
+}
+.prod .txt img {
+  width: 100%;
+  height: 100%;
+}
+.prod .txt h3 {
+  margin: 0px;
+  line-height: 70px;
+  font-size: 18px;
+}
+.descr .fluid {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.descr .fluid .imtes {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 160px;
+  margin-bottom: 240px;
+}
+.descr .fluid .clear {
+  clear: both;
+}
+.descr .fluid .clear img {
+  width: 100%;
+}
+.descr .fluid .clear .texts {
+  padding: 0 70px 0 80px;
+}
+.descr .fluid .clear .texts h3 {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+.descr .fluid .clear .texts p {
+  font-size: 22px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.descr .fluid .clear .texts a {
+  font-size: 18px;
+  color: #ab8e75;
+  text-decoration: none;
+}
+.descr .fluid .clear .bot {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.partner {
+  background-image: url("../images/sy_imgbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.partner .title {
+  padding: 50px 0px;
+  text-align: center;
+}
+.partner .title h3 {
+  font-size: 30px;
+}
+.partner .title h4 {
+  font-size: 14px;
+}
+.partner .log-main {
+  padding: 10px;
+}
+.partner .log-main h2 {
+  color: #989898;
+  text-align: center;
+  font-size: 50px;
+  line-height: 80px;
+  background-color: white;
+}
+/* 大屏幕（平板，大于等于 1024px） */
+@media (max-width: 768px) {
+  header .centents h5 {
+    font-size: 1.5rem;
+  }
+  header .centents h3 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  header .centents p {
+    font-size: 1rem;
+  }
+  section.prod .txt h3 {
+    font-size: 16px;
+  }
+  section.descr .fluid .imtes {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+  }
+  section.descr .fluid .imtes .bing {
+    padding: 0px;
+  }
+  section.descr .fluid .imtes img {
+    width: 100%;
+  }
+  section.descr .fluid .imtes .texts {
+    padding: 0px 30px;
+  }
+  section.descr .fluid .imtes .texts h3 {
+    font-size: 26px;
+    padding: 30px 0px;
+  }
+  section.descr .fluid .imtes .texts p {
+    font-size: 22px;
+    line-height: 40px;
+    padding-bottom: 20px;
+  }
+  section.descr .fluid .imtes .texts a {
+    font-size: 18px;
+    color: #ab8e75;
+  }
+  section.descr .fluid .imtes .bot {
+    position: relative;
+    margin-top: 20px;
+    padding: 0px;
+  }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+/*# sourceMappingURL=./style.css.map */
