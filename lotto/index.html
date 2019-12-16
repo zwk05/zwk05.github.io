@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>幸运抽奖转轮</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="rotate">
+        <img class="liter" src="./img/turntable.png" alt="" />
+        <img class="tear" src="./img/pointer.png" alt="" />
+    </div>
+
+    <script>
+        var liter = document.getElementsByClassName("liter")[0];
+        var tear = document.getElementsByClassName("tear")[0];
+
+        tear.onclick = function () {
+            // console.log("xxx");
+            var randomNum = generateRandomNum();
+            var lotteryCode = generateLotteryCode(randomNum);
+            console.log(randomNum, lotteryCode);
+            updataView(lotteryCode);
+        };
+
+        function generateRandomNum() {
+            return Math.floor(Math.random() * 100);
+        }
+
+        function generateLotteryCode(n) {
+            if (n < 3) {
+                return { code: 1, text: "恭喜您获得：免单4999元!" };
+            } else if (n < 8) {
+                return { code: 2, text: "恭喜您获得：免单50元!" };
+            } else if (n < 15) {
+                return { code: 3, text: "恭喜您获得：免单10元!" };
+            } else if (n < 25) {
+                return { code: 4, text: "恭喜您获得：免单5元!" };
+            } else if (n < 40) {
+                return { code: 5, text: "恭喜您获得：免分期服务费!" };
+            } else if (n < 65) {
+                return { code: 6, text: "恭喜您获得：提高白条额度!" };
+            } else {
+                return { code: 7, text: "未中奖" };
+            }
+        }
+
+       
+        function updataView(obj) {
+           
+            var x = 360 / 7 / 2 + (360 / 7) * (obj.code - 1);
+            liter.style.transition = "all 3s";
+            liter.style.transform = "rotate(" + (x + 360 * 3) + "deg)";
+
+           
+            setTimeout(function () {
+                liter.style.transition = "none";
+                liter.style.transform = "rotate(" + x + "deg)";
+
+                alert(obj.text);
+            }, 3500);
+        }
+    </script>
+</body>
+
+</html>

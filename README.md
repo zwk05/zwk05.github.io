@@ -3,6 +3,7 @@
 - html+css+js 
   - [Html+Css+Js 倒计时](https://zwk05.github.io/count/)
 - JavaScript
+ - [Html+css+js 抽奖](https://zwk05.github.io/lotto/)
 - jQuery
   - [Regular+css 注册表](https://zwk05.github.io/regular/) 
   - [Ajax+css 瀑布流](https://zwk05.github.io/falls/)
