@@ -1,12 +1,12 @@
 # 项目展示
 
-- html+css+js 
+- Html+Css+Js 
   - [Html+Css+Js 倒计时](https://zwk05.github.io/count/)
 - JavaScript
-   - [Html+css+js 抽奖](https://zwk05.github.io/lotto/)
+   - [Html+Css+Js 抽奖](https://zwk05.github.io/lotto/)
 - jQuery
-  - [Regular+css 注册表](https://zwk05.github.io/regular/) 
-  - [Ajax+css 瀑布流](https://zwk05.github.io/falls/)
+  - [Regular+Css 注册表](https://zwk05.github.io/regular/) 
+  - [Ajax+Css 瀑布流](https://zwk05.github.io/falls/)
   - [Css+Js 全屏滚动](https://zwk05.github.io/screen/)
 - BootStrap
   - [BootStrap+Css 模特](https://zwk05.github.io/TheHotel/) 
