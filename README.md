@@ -23,8 +23,8 @@
   - [Html+Css+Js音乐播放器](https://zwk05.github.io/music/)
   - wewew
   - etrtrtr
-- VUE.js
-  -[悦享新音乐](https://zwk05.github.io/EnjoyMusic-VUE/dist/)
+- Vue.js
+  - [悦享新音乐](https://zwk05.github.io/EnjoyMusic-VUE/)
 - react.js
 - 小程序
 - node.js
