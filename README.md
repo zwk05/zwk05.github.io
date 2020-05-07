@@ -21,10 +21,8 @@
 - HTML5
   - [Canvas+ES6 球球大作战](https://zwk05.github.io/boll/)
   - [Html+Css+Js音乐播放器](https://zwk05.github.io/music/)
-  - wewew
-  - etrtrtr
 - Vue.js
-  - [悦享新音乐](https://zwk05.github.io/EnjoyMusic-VUE/dist/index.html)
+  - [悦享新音乐](https://zwk05.github.io/EnjoyMusic-VUE/)
 - react.js
 - 小程序
 - node.js
